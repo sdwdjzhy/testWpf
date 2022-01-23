@@ -11,14 +11,11 @@ namespace test
         public MainWindow()
         {
             InitializeComponent();
-            ConfigHelper.Instance.SetLang("zh-cn");
         }
-
-
+        
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             HandyControl.Controls.MessageBox.Show("Ok");
         }
-
     }
 }
